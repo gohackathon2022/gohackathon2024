@@ -1,6 +1,7 @@
 import React from 'react';
 import Index from './pages/Index';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Webinar from './pages/Webinar';
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Index />} />
+          <Route path ='/webinar' element={<Webinar/>}/>
         </Routes>
       </Router>
       

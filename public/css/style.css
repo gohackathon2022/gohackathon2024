@@ -413,3 +413,12 @@ body{
   .aboutsection p {
     text-align: justify;
   }
+
+  .webinar-01 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .webinar-card {
+    background-color: #37bbe454;
+  }

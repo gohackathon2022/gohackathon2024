@@ -23,7 +23,7 @@ const Menu = () => {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href={URL}>Webinars</a>
+              <a className="nav-link" href='webinar'>Webinars</a>
             </li>
 
             <li className="nav-item">
