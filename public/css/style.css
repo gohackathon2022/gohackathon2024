@@ -70,15 +70,120 @@ header img {
 .section-0{
   background-color: #37bbe454;
   text-align: center;
-  width: 100%;
+  width: 90%;
   font-family: Montserrat;
   font-size: small;
+  margin: auto;
+  border-radius: 75px;
+  margin-top: 20px;
 }
 
 .section-0 img{
   height: 300px;
   width: 360px;
 }
+
+.section-2 {
+  background-color: whitesmoke;
+    width: 90%;
+    margin: auto;
+    border-radius: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.web {
+  background-color: #37E491;
+  border-radius: 20px;
+}
+.app {
+  background-color: #37BBE4;
+  border-radius: 20px;
+}
+.cloud {
+  background-color: #D7D1EE;
+  border-radius: 20px;
+}
+.open-source {
+  background-color: #9747FF;
+  border-radius: 20px;
+}
+.custom-software {
+  background-color: #9747FF;
+  border-radius: 20px;
+}
+.tech-assist {
+  background-color: #D7D1EE;
+  border-radius: 20px;
+}
+.ui-ux {
+  background-color: #37BBE4;
+  border-radius: 20px;
+}
+.ecommerce {
+  background-color: #00FF84;
+  border-radius: 20px;
+}
+
+.section-1 {
+  background-color: #37bbe454;
+  width: 90%;
+  margin: auto;
+  border-radius: 75px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+
+}
+
+.cloud-1 {
+  background-color: #37bbe454;
+  border-radius: 60px;
+}
+
+.cloud-01 {
+  background-color: whitesmoke;
+  border-radius: 50px;
+}
+
+.training-01 {
+  background-color: #A0E8FF;
+  border-radius: 50px;
+  align-items: center;
+}
+
+.jobs-01 {
+  background-color: #A0E8FF;
+  border-radius: 50px;
+}
+
+.card-button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.section-03 {
+  background-color: #A0E8FF;
+  width: 90%;
+  margin: auto;
+  border-radius: 75px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.webinarimg {
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.webinar h2 {
+  margin-top: 60px;
+}
+
+
 
 
 .container-hero
@@ -211,9 +316,12 @@ p{
 }
 
 .bannerimg {
+  margin-top: 80px;
+  margin-bottom: 80px;
   display: flex;
-  width: auto;
-  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
 }
 
 .bannertext p {
@@ -347,7 +455,7 @@ header .container .col-md-7 p {
 }
 
 .purchase > h2 {
-  padding-top: 50px;
+  margin-top: 10px;
   padding-bottom: 0.1em;
   font-family: var(--Lobster);
 }
@@ -355,7 +463,6 @@ header .container .col-md-7 p {
 .purchase > p {
   color: var(--light-black);
   font-size: 3vmin;
-  padding-bottom: 5vmin;
 }
 
 .service-section {
@@ -410,7 +517,7 @@ header .container .col-md-7 p {
   text-align: center;
 }
 
-.section-4 .card {
+/* .section-4 .card {
   width: 22em;
   margin-top: 5vmin;
 }
@@ -425,7 +532,7 @@ header .container .col-md-7 p {
 
 .section-4 .carousel-item {
   padding-left: 3rem;
-}
+} */
 
 .border-radius {
   border-radius: 340px;
@@ -492,7 +599,9 @@ ul {
 .footer-section {
 background: rgb(27, 27, 27);
 position: relative;
-width: 100%;
+width: 95%;
+margin: auto;
+border-radius: 75px 75px 0 0;
 }
 .footer-cta {
 border-bottom: 1px solid #373636;

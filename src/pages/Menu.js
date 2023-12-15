@@ -17,54 +17,29 @@ const Menu = () => {
         {/* 2nd menu part  */}
         <div className={showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"}>
           <ul>
-
-            <li className="nav-item dropdown">
-              <div className="dropdown">
-                <a href="/about" className="nav-link">ABOUT US</a>
-                <div className="dropdown-content">
-                  <a href="/about">Who We Are</a>
-                  <a href="/event">Events</a>
-                  <a href="/gallery">Gallery</a>
-                 </div>
-              </div>
-            </li>
-
-            <li className="nav-item">
-              <a className="nav-link" href="/training">TRAINING</a>
-            </li>
-
-            {/* <li className="nav-item dropdown">
-              <div className="dropdown">
-                <a href="/training" className="nav-link">TRAINING</a>
-                <div className="dropdown-content">
-                  <a href="{URL}">Web Development (Full Stack)</a>
-                  <a href="{URL}">Web Design (UI/UX)</a>
-                  <a href="{URL}">Digital Marketing</a>
-                  <a href="/training">Project Based Internship</a>
-                  <a href="{URL}">Learning Tours</a>
-                </div>
-              </div>
-            </li> */}
-
-            <li className="nav-item dropdown">
-              <div className="dropdown">
-                <a href="/software-development" className="nav-link">SERVICES</a>
-                <div className="dropdown-content">
-                  <a href="/software-development">Web Development</a>
-                  <a href="/software-development">App Development</a>
-                  <a href="/software-development">Cloud Infrastructure</a>
-                  <a href="/software-development">Open Source</a>
-                  <a href="/software-development">Custom Software</a>
-                  <a href="/software-development">Tech Assistance</a>
-                  <a href="/software-development">UI/UX Designing</a>
-                  <a href="/software-development">E-Commerce</a>
-                  <a href="/software-development">Custom LMS </a>
-                </div>
-              </div>
-            </li>
             
             <li className="nav-item">
-              <a className="nav-link" href="/contact">CONTACT</a>
+              <a className="nav-link" href="/">Home</a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href={URL}>Webinars</a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href={URL}>Hackathon</a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href={URL}>Jobs</a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href={URL}>Training</a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href={URL}>About</a>
             </li>
             
             <li>
@@ -82,7 +57,7 @@ const Menu = () => {
                 </li>
                 ) : (
                 <li>
-                  <button className='btn btn-primary' onClick={() => loginWithRedirect()}>Log In</button>
+                  <button className='btn btn-primary px-5 py-2 primary-btn' onClick={() => loginWithRedirect()}>Login / Signup</button>
                 </li>
                 )
             }
