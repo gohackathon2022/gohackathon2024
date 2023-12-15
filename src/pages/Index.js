@@ -34,7 +34,7 @@ const index = () => {
             <div className='row'>
                 
                 <div className="col-sm-6 mb-3 mb-sm-0">
-                    <div className="card training-01">
+                    <div className="card announce">
                         <img src='img/announcement.png' alt='Announcement' style={{width:'92px', height:'119px'}}></img>
                         <div className="card-body">
                             <h2 className="card-title"><strong>Announcement</strong></h2>
